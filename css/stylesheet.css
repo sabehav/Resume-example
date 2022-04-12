@@ -5,14 +5,17 @@ body{
   font-family: 'Times New Roman', Times, serif;
   border-style:groove;
   border-width: 30px;
-  border-color:gray;
+  border-color:black;
+  display:flex;
+  flex-direction: column;
 }
 
 header {
-  color:aliceblue;
-  background-color:#070706;
+  color:rgb(245, 238, 238);
+  background-color:rgb(43, 37, 31);
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
 }
 
 footer {
@@ -21,29 +24,47 @@ footer {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h2{ color: rgb(250, 246, 246);
-  background-color: rgb(3, 3, 3);
+h2{ color: rgb(255, 255, 255);
+  background-color:rgb(43, 37, 31);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 10px;
+  margin:0px;
   padding: 10px;
 }
 
 #menu {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: brown;
 }
 
 .h1{
-  font-size: 30px;
+  font-size: 19px;
   color:black;
+  margin: 10px;
 }
 
 #nanamipicture{
-  width: 300px;
-  border-radius: 60%;
+  width: 250px;
+  border-radius: 10%;
 }
 
 .sidebar{
   padding:0%;
   list-style: none;
+  background-color: rgb(162, 224, 181);
 }
 
+.menu{
+  background-color: rgb(162, 224, 181);
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+
+.nav{
+  color:#FCF7F8;
+  background-color: rgb(162, 224, 181);
+  padding: 80px;
+}
